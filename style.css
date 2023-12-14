@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'PT Sans', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    font-weight:bold ;
+}
+.left, .right{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+background: rgb(37, 35, 35);
+width: 70%;
+padding-left: 3rem;
+}
+.right{
+background: linear-gradient(rgb(20, 20, 20), rgb(105, 102, 102));
+width: 30%;
+}
+.icons .fa{
+    color: white;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.content{
+    margin-left: 4rem;
+}
+.content .intro{
+    font-size: 1.5rem;
+    color: rgb(202, 159, 242);
+    font-weight: bold;
+}
+.content h1{
+    font-size: 4rem;
+    color: rgb(222, 152, 222);
+}
+.content .detail{
+    font-size: 1.2rem;
+    color:rgb(220, 198, 240);
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.btn-container button{
+border: .1rem solid blueviolet;
+padding: .8rem 1.5rem;
+border-radius: .5rem;
+font-size: large;
+font-weight:bold ;
+}
+.icons .fa {
+    cursor: pointer;
+    background: linear-gradient(violet, blueviolet);
+    -webkit-text-fill-color: transparent;
+}
